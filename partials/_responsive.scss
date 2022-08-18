@@ -1,8 +1,9 @@
 @media (max-width: 1000px) {
-    #wrapper {
-        width: auto;
-        #coding-sections {
-            flex-direction: column !important;
-        }
+    #wrapper,
+    #coding-sections {
+        display: block !important;
+    }
+    .code-section {
+        width: auto !important;
     }
 }

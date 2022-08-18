@@ -10,11 +10,12 @@ body {
 }
 
 @media (max-width: 1000px) {
-  #wrapper {
-    width: auto;
+  #wrapper,
+#coding-sections {
+    display: block !important;
   }
-  #wrapper #coding-sections {
-    flex-direction: column !important;
+  .code-section {
+    width: auto !important;
   }
 }
 * {
