@@ -5,30 +5,51 @@
     justify-content: center;
     flex-direction: column;
     width: 100vw;
+    height: auto;
+    background-color: #000;
     #top-bars {
         display: $flex-display;
         justify-content: center;
         text-align: center;
-        height: 40px;
+        height: auto;
+        background-color: #151515;
+        padding: 10px 0;
+        color: #d0cdcd;
+        span {
+            background-color: red;
+            width: 40px;
+            
+        }
     }
     #coding-sections {
         display: $flex-display;
         flex-direction: row;
         section[class*="code-section"] {
             width: $section-widths;
-            height: calc(100% - 40px);
+            height: 100vh;
+            border: 2px solid black;
+            border-radius: 5px;
         }
         #HTML-input {
-            background-color: red;
+            background-color: #610094;
         }
         #CSS-input {
-            background-color: blue;
+            background-color: #3F0071;
         }
         #JS-input {
-            background-color: yellow;
+            background-color: #47278d;
         }
         #output {
-            background-color: green;
+            background-color: #150050;
+        }
+        .section-bar {
+            padding: 10px 0 10px 5px;
+            background-color: rgb(67, 54, 172);
+            border-radius: 5px;
+            color: #d0cdcd;
+        }
+        section[id*="user"] {
+            padding: 10px 5px;
         }
     }
 }

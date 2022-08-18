@@ -1,7 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Cousine&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+* {
+  font-family: "Cousine", monospace;
+}
+
+section[id*=user] {
+  font-family: "Courier New", Courier, monospace;
+  color: #f5f5f5;
 }
 
 #wrapper {
@@ -9,12 +19,21 @@
   justify-content: center;
   flex-direction: column;
   width: 100vw;
+  height: auto;
+  background-color: #000;
 }
 #wrapper #top-bars {
   display: flex;
   justify-content: center;
   text-align: center;
-  height: 40px;
+  height: auto;
+  background-color: #151515;
+  padding: 10px 0;
+  color: #d0cdcd;
+}
+#wrapper #top-bars span {
+  background-color: red;
+  width: 40px;
 }
 #wrapper #coding-sections {
   display: flex;
@@ -22,17 +41,28 @@
 }
 #wrapper #coding-sections section[class*=code-section] {
   width: 25%;
-  height: calc(100% - 40px);
+  height: 100vh;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 #wrapper #coding-sections #HTML-input {
-  background-color: red;
+  background-color: #610094;
 }
 #wrapper #coding-sections #CSS-input {
-  background-color: blue;
+  background-color: #3F0071;
 }
 #wrapper #coding-sections #JS-input {
-  background-color: yellow;
+  background-color: #47278d;
 }
 #wrapper #coding-sections #output {
-  background-color: green;
+  background-color: #150050;
+}
+#wrapper #coding-sections .section-bar {
+  padding: 10px 0 10px 5px;
+  background-color: rgb(67, 54, 172);
+  border-radius: 5px;
+  color: #d0cdcd;
+}
+#wrapper #coding-sections section[id*=user] {
+  padding: 10px 5px;
 }/*# sourceMappingURL=style.css.map */
