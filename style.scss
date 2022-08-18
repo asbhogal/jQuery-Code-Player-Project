@@ -23,6 +23,8 @@
             cursor: pointer;
             transition: $transition-03;
             color: $text-color;
+            border: none;
+            border-bottom: 2px solid $border-color;
             &:hover {
                 background-color: #000;
                 transition: $transition-03;
@@ -40,9 +42,6 @@
             height: 100vh;
             border: 2px solid black;
         }
-        textarea[id*="input"] {
-            background-color: $input-panel-color;
-        }
         #output {
             background-color: $output-panel-color;
         }
@@ -54,8 +53,9 @@
         textarea[id*="user"] {
             padding: 10px 5px;
             background-color: $output-panel-color;
-            height: 100%;
+            height: calc(100% - 60px);
             width: 100%;
+            resize: none;
         }
     }
 }

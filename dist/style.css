@@ -52,6 +52,8 @@ textarea[id*=user] {
   cursor: pointer;
   transition: 0.3s all ease-in;
   color: #ccc;
+  border: none;
+  border-bottom: 2px solid #aaa;
 }
 #wrapper #top-bars span:hover,
 #wrapper #top-bars button:hover {
@@ -70,9 +72,6 @@ textarea[id*=user] {
   height: 100vh;
   border: 2px solid black;
 }
-#wrapper #coding-sections textarea[id*=input] {
-  background-color: #111;
-}
 #wrapper #coding-sections #output {
   background-color: #000;
 }
@@ -84,6 +83,7 @@ textarea[id*=user] {
 #wrapper #coding-sections textarea[id*=user] {
   padding: 10px 5px;
   background-color: #000;
-  height: 100%;
+  height: calc(100% - 60px);
   width: 100%;
+  resize: none;
 }/*# sourceMappingURL=style.css.map */
