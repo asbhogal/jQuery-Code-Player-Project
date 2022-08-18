@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  height: auto !important;
+}
+
 @media (max-width: 1000px) {
   #wrapper {
     width: auto;
@@ -17,9 +21,10 @@
   font-family: "Cousine", monospace;
 }
 
-section[id*=user] {
+textarea[id*=user] {
   font-family: "Courier New", Courier, monospace;
   color: #f5f5f5;
+  caret-color: #f5f5f5;
 }
 
 #wrapper {
@@ -39,14 +44,17 @@ section[id*=user] {
   padding: 10px 0;
   color: #d0cdcd;
 }
-#wrapper #top-bars span {
+#wrapper #top-bars span,
+#wrapper #top-bars button {
   background-color: #311a54;
-  padding: 5px;
-  margin: 5px 0;
+  padding: 10px;
+  margin: 10px 0;
   cursor: pointer;
   transition: 0.3s all ease-in;
+  color: #ccc;
 }
-#wrapper #top-bars span:hover {
+#wrapper #top-bars span:hover,
+#wrapper #top-bars button:hover {
   background-color: #000;
   transition: 0.3s all ease-in;
 }
@@ -62,7 +70,7 @@ section[id*=user] {
   height: 100vh;
   border: 2px solid black;
 }
-#wrapper #coding-sections section[id*=input] {
+#wrapper #coding-sections textarea[id*=input] {
   background-color: #111;
 }
 #wrapper #coding-sections #output {
@@ -73,7 +81,9 @@ section[id*=user] {
   background-color: #222;
   color: #d0cdcd;
 }
-#wrapper #coding-sections section[id*=user] {
+#wrapper #coding-sections textarea[id*=user] {
   padding: 10px 5px;
   background-color: #000;
+  height: 100%;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

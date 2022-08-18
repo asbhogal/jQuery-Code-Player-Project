@@ -15,12 +15,14 @@
         background-color: #151515;
         padding: 10px 0;
         color: #d0cdcd;
-        span {
+        span,
+        button {
             background-color: #311a54;
-            padding: 5px;
-            margin: 5px 0;
+            padding: 10px;
+            margin: 10px 0;
             cursor: pointer;
             transition: $transition-03;
+            color: $text-color;
             &:hover {
                 background-color: #000;
                 transition: $transition-03;
@@ -38,7 +40,7 @@
             height: 100vh;
             border: 2px solid black;
         }
-        section[id*="input"] {
+        textarea[id*="input"] {
             background-color: $input-panel-color;
         }
         #output {
@@ -49,9 +51,11 @@
             background-color: $section-bar-bg-color;
             color: #d0cdcd;
         }
-        section[id*="user"] {
+        textarea[id*="user"] {
             padding: 10px 5px;
             background-color: $output-panel-color;
+            height: 100%;
+            width: 100%;
         }
     }
 }
