@@ -2,10 +2,10 @@
 
 #wrapper {
     display: $flex-display;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-color: #000;
     #top-bars {
         display: $flex-display;
@@ -39,7 +39,7 @@
         flex-direction: row;
         section[class*="code-section"] {
             width: $section-widths;
-            height: 100vh;
+            height: 100%;
             border: 2px solid black;
         }
         #output {
