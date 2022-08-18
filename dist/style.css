@@ -32,8 +32,18 @@ section[id*=user] {
   color: #d0cdcd;
 }
 #wrapper #top-bars span {
-  background-color: red;
-  width: 40px;
+  background-color: #311a54;
+  padding: 5px;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: 0.3s all ease-in;
+}
+#wrapper #top-bars span:hover {
+  background-color: #000;
+  transition: 0.3s all ease-in;
+}
+#wrapper #top-bars h1 {
+  margin: 10px 0;
 }
 #wrapper #coding-sections {
   display: flex;

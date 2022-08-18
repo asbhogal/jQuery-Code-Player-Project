@@ -1,4 +1,4 @@
-@import 'partials/globals', 'partials/mixins', 'partials/typography', 'partials/variables';
+@import 'partials/globals', 'partials/mixins',, 'partials/responsive', 'partials/typography', 'partials/variables';
 
 #wrapper {
     display: $flex-display;
@@ -16,9 +16,18 @@
         padding: 10px 0;
         color: #d0cdcd;
         span {
-            background-color: red;
-            width: 40px;
-            
+            background-color: #311a54;
+            padding: 5px;
+            margin: 5px 0;
+            cursor: pointer;
+            transition: $transition-03;
+            &:hover {
+                background-color: #000;
+                transition: $transition-03;
+            }
+        }
+        h1 {
+            margin: 10px 0;
         }
     }
     #coding-sections {
