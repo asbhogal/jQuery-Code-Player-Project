@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+#wrapper #top-bars {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 40px;
+}
+#wrapper #coding-sections {
+  display: flex;
+  flex-direction: row;
+}
+#wrapper #coding-sections section[class*=code-section] {
+  width: 25%;
+  height: calc(100% - 40px);
+}
+#wrapper #coding-sections #HTML-input {
+  background-color: red;
+}
+#wrapper #coding-sections #CSS-input {
+  background-color: blue;
+}
+#wrapper #coding-sections #JS-input {
+  background-color: yellow;
+}
+#wrapper #coding-sections #output {
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */
