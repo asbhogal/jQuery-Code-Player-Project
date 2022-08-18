@@ -1,10 +1,10 @@
-@import 'partials/globals', 'partials/mixins',, 'partials/responsive', 'partials/typography', 'partials/variables';
+@import 'partials/globals', 'partials/mixins', 'partials/responsive', 'partials/typography', 'partials/variables';
 
 #wrapper {
     display: $flex-display;
     justify-content: center;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
     height: auto;
     background-color: #000;
     #top-bars {
@@ -37,28 +37,21 @@
             width: $section-widths;
             height: 100vh;
             border: 2px solid black;
-            border-radius: 5px;
         }
-        #HTML-input {
-            background-color: #610094;
-        }
-        #CSS-input {
-            background-color: #3F0071;
-        }
-        #JS-input {
-            background-color: #47278d;
+        section[id*="input"] {
+            background-color: $input-panel-color;
         }
         #output {
-            background-color: #150050;
+            background-color: $output-panel-color;
         }
         .section-bar {
             padding: 10px 0 10px 5px;
-            background-color: rgb(67, 54, 172);
-            border-radius: 5px;
+            background-color: $section-bar-bg-color;
             color: #d0cdcd;
         }
         section[id*="user"] {
             padding: 10px 5px;
+            background-color: $output-panel-color;
         }
     }
 }

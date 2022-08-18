@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 1000px) {
+  #wrapper {
+    width: auto;
+  }
+  #wrapper #coding-sections {
+    flex-direction: column !important;
+  }
+}
 * {
   font-family: "Cousine", monospace;
 }
@@ -18,7 +26,7 @@ section[id*=user] {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   height: auto;
   background-color: #000;
 }
@@ -53,26 +61,19 @@ section[id*=user] {
   width: 25%;
   height: 100vh;
   border: 2px solid black;
-  border-radius: 5px;
 }
-#wrapper #coding-sections #HTML-input {
-  background-color: #610094;
-}
-#wrapper #coding-sections #CSS-input {
-  background-color: #3F0071;
-}
-#wrapper #coding-sections #JS-input {
-  background-color: #47278d;
+#wrapper #coding-sections section[id*=input] {
+  background-color: #111;
 }
 #wrapper #coding-sections #output {
-  background-color: #150050;
+  background-color: #000;
 }
 #wrapper #coding-sections .section-bar {
   padding: 10px 0 10px 5px;
-  background-color: rgb(67, 54, 172);
-  border-radius: 5px;
+  background-color: #222;
   color: #d0cdcd;
 }
 #wrapper #coding-sections section[id*=user] {
   padding: 10px 5px;
+  background-color: #000;
 }/*# sourceMappingURL=style.css.map */
