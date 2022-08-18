@@ -86,4 +86,8 @@ textarea[id*=user] {
   height: calc(100% - 60px);
   width: 100%;
   resize: none;
+}
+
+.ui-tooltip {
+  color: red;
 }/*# sourceMappingURL=style.css.map */

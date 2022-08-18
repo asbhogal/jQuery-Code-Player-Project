@@ -6,3 +6,4 @@ A code editor and player created using vanilla HTML5, CSS3 (SCSS), JavaScript & 
     -   Collapsible (hide/show) sections for HTML, CSS and JavaScript
     -   A stylish, modern theme
     -   Full responsiveness across devices
+    -   Custom tooltips
