@@ -5,3 +5,8 @@ $(".toggleButton").hover(function() {
 }, function() {
     $(this).removeClass("highlightedButton");
 });
+
+$(".toggleButton").click(function() {
+    $(this).toggleClass("active");
+    $(this).toggleClass("highlightedButton");
+})
