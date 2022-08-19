@@ -1,51 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Player</title>
-    <link rel="stylesheet" href="dist/style.css">
-    <link rel="stylesheet" href="src/jquery-ui-1.13.2/jquery-ui.css">
-    <script src="src/jquery-3.6.0.min.js"></script>
-    <script src="src/jquery-ui-1.13.2/jquery-ui.js"></script>
-    <script src="script.js" defer></script>
-</head>
-<body>
-    <div id="wrapper">
-        <nav id="top-bars">
-            <nav id="title-bar">
-                <h1>Live Code Editor & Player</h1>
-                <nav id="nav-bar">
-                    <button id="html" class="toggleButton active" title="Show/Hide">HTML</button>
-                    <button id="css" class="toggleButton" title="Show/Hide">CSS</button>
-                    <button id="js" class="toggleButton" title="Show/Hide">JS</button>
-                    <button id="output" class="toggleButton active" title="Show/Hide">OUTPUT</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Code Player</title>
+        <link rel="stylesheet" href="dist/style.css">
+        <link rel="stylesheet" href="src/jquery-ui-1.13.2/jquery-ui.css">
+        <script src="src/jquery-3.6.0.min.js"></script>
+        <script src="src/jquery-ui-1.13.2/jquery-ui.js"></script>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <nav id="top-bars">
+                <nav id="title-bar">
+                    <h1>Live Code Editor & Player</h1>
+                    <nav id="nav-bar">
+                        <button id="html" class="toggleButton active" title="Show/Hide">HTML</button>
+                        <button id="css" class="toggleButton" title="Show/Hide">CSS</button>
+                        <button id="js" class="toggleButton" title="Show/Hide">JS</button>
+                        <button id="output" class="toggleButton active" title="Show/Hide">OUTPUT</button>
+                    </nav>
                 </nav>
             </nav>
-        </nav>
-        <div id="coding-sections">
-            <section id="HTML-input" class="code-section">
-                <h3 class="section-bar">HTML</h3>
-                <textarea id="user-input" rows="30" placeholder="TYPE CODE HERE"></textarea>
-                <button id="clear-html">CLEAR</button>
-            </section>
-            <section id="CSS-input" class="code-section">
-                <h3 class="section-bar">CSS</h3>
-                <textarea id="user-input" placeholder="TYPE STYLES HERE"></textarea>
-                <button id="clear-css">CLEAR</button>
-            </section>
-            <section id="JS-input" class="code-section">
-                <h3 class="section-bar">JS</h3>
-                <textarea id="user-input" placeholder="TYPE JAVASCRIPT HERE"></textarea>
-                <button id="clear-js">CLEAR</button>
-            </section>
-            <section id="output" class="code-section">
-                <h3 class="section-bar">OUTPUT</h3>
-                <!--<textarea id="user-input" >Lorem ipsum</textarea>-->
-            </section>
-        </div>
-    </div>
-    
-</body>
+            <div id="coding-sections">
+                <section id="HTML-input" class="code-section">
+                    <h3 class="section-bar">HTML</h3>
+                    <textarea id="user-input" rows="30" placeholder="TYPE CODE HERE"></textarea>
+                </section>
+                <section id="CSS-input" class="code-section">
+                    <h3 class="section-bar">CSS</h3>
+                    <textarea id="user-input" placeholder="TYPE STYLES HERE"></textarea>
+                </section>
+                <section id="JS-input" class="code-section">
+                    <h3 class="section-bar">JS</h3>
+                    <textarea id="user-input" placeholder="TYPE JAVASCRIPT HERE"></textarea>
+                </section>
+                <section id="output" class="code-section">
+                    <h3 class="section-bar">OUTPUT</h3>
+                    <!--<textarea id="user-input" >Lorem ipsum</textarea>-->
+                </section>
+            </div>
+        </div>    
+    </body>
 </html>
