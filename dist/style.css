@@ -61,6 +61,15 @@ textarea[id*=user] {
   background-color: #000;
   transition: 0.3s all ease-in;
 }
+#wrapper #top-bars span.active,
+#wrapper #top-bars button.active {
+  background-color: #270082;
+  transition: 0.3s all ease-in;
+}
+#wrapper #top-bars span.highlightedButton,
+#wrapper #top-bars button.highlightedButton {
+  background-color: #000 !important;
+}
 #wrapper #top-bars h1 {
   margin: 10px 0;
 }
