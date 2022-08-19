@@ -93,11 +93,34 @@ textarea[id*=user] {
 #wrapper #coding-sections textarea[id*=user] {
   padding: 10px 5px;
   background-color: #000;
-  height: calc(100% - 60px);
+  height: 100%;
   width: 100%;
   resize: none;
 }
 
 .ui-tooltip {
   color: red;
+}
+
+button[id*=clear] {
+  width: max-content;
+  background-color: #311a54;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.3s all ease-in;
+  color: #ccc;
+  border: none;
+  border-bottom: 2px solid #aaa;
+}
+button[id*=clear]:hover {
+  background-color: #000;
+  transition: 0.3s all ease-in;
+}
+button[id*=clear].active {
+  background-color: #270082;
+  transition: 0.3s all ease-in;
+}
+button[id*=clear].highlightedButton {
+  background-color: #000 !important;
 }/*# sourceMappingURL=style.css.map */
