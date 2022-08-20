@@ -71,7 +71,13 @@
     color: red;
 }
 
-button[id*="clear"] {
+#codeOutput {
+    background-color: $border-color;
+    height: 100%;
+    width: 100%;
+}
+
+/*button[id*="clear"] {
     width: max-content;
     background-color: #311a54;
     padding: 10px;
@@ -92,4 +98,4 @@ button[id*="clear"] {
     &.highlightedButton {
         background-color: #000 !important;
     }
-}
+}*/

@@ -102,25 +102,31 @@ textarea[id*=user] {
   color: red;
 }
 
-button[id*=clear] {
-  width: max-content;
-  background-color: #311a54;
-  padding: 10px;
-  margin: 10px 0;
-  cursor: pointer;
-  transition: 0.3s all ease-in;
-  color: #ccc;
-  border: none;
-  border-bottom: 2px solid #aaa;
+#codeOutput {
+  background-color: #aaa;
+  height: 100%;
+  width: 100%;
 }
-button[id*=clear]:hover {
-  background-color: #000;
-  transition: 0.3s all ease-in;
-}
-button[id*=clear].active {
-  background-color: #270082;
-  transition: 0.3s all ease-in;
-}
-button[id*=clear].highlightedButton {
-  background-color: #000 !important;
-}/*# sourceMappingURL=style.css.map */
+
+/*button[id*="clear"] {
+    width: max-content;
+    background-color: #311a54;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: $transition-03;
+    color: $text-color;
+    border: none;
+    border-bottom: 2px solid $border-color;
+    &:hover {
+        background-color: #000;
+        transition: $transition-03;
+    }
+    &.active {
+        background-color: $active-button-bg-color;
+        transition: $transition-03;
+    }
+    &.highlightedButton {
+        background-color: #000 !important;
+    }
+}*//*# sourceMappingURL=style.css.map */

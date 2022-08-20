@@ -10,3 +10,5 @@ $(".toggleButton").click(function() {
     $(this).toggleClass("active");
     $(this).toggleClass("highlightedButton");
 })
+
+$("#codeOutput").contents().find("html").html('Test HTML');
