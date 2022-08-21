@@ -57,12 +57,14 @@
             background-color: $section-bar-bg-color;
             color: #d0cdcd;
         }
-        textarea[id*="user"] {
+        textarea[class*="user"] {
             padding: 10px 5px;
             background-color: $output-panel-color;
             height: 100%;
             width: 100%;
             resize: none;
+            color: $user-input-text-color;
+            caret-color: $user-input-caret-color;
         }
     }
 }
@@ -72,7 +74,7 @@
 }
 
 #codeOutput {
-    background-color: $border-color;
+    background-color: #fff;
     height: 100%;
     width: 100%;
 }

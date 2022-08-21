@@ -11,4 +11,4 @@ $(".toggleButton").click(function() {
     $(this).toggleClass("highlightedButton");
 })
 
-$("#codeOutput").contents().find("html").html('Test HTML');
+$("#codeOutput").contents().find("html").html($("#HTMLUserInput").val());
