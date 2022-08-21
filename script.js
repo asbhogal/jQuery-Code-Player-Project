@@ -11,4 +11,12 @@ $(".toggleButton").click(function() {
     $(this).toggleClass("highlightedButton");
 })
 
-$("#codeOutput").contents().find("html").html($("#HTMLUserInput").val());
+$("textarea").on('change keyup paste', function() {
+    $("iframe").contents().find("html").html($("#HTMLUserInput").val());
+});
+
+$(document).ready(function() {
+    $("#htmlSectionToggle").click(function () {
+        $("#HTML-input").toggle(1500, "easeoutQuint")
+    });
+});
