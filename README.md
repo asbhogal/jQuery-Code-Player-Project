@@ -1,5 +1,9 @@
-<h1>README</h1>
-<h2>jQuery Code Player</h2>
+<h1>jQuery Code Player</h1>
+<div align="center">
+
+<br><br> ![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/jQuery-Code-Player-Project/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/jQuery-Code-Player-Project?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/jQuery-Code-Player-Project?color=blueviolet&style=for-the-badge&labelColor=000)
+
+</div>
 
 A code editor and player created using vanilla HTML5, CSS3 (SCSS), JavaScript & jQuery. This repo is currently under development.
 
