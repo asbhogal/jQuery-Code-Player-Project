@@ -46,6 +46,9 @@ body {
   margin: 10px 0;
   cursor: pointer;
   transition: 0.3s all ease-in;
+  -webkit-transition: 0.3s all ease-in;
+  -moz-transition: 0.3s all ease-in;
+  -o-transition: 0.3s all ease-in;
   color: #ccc;
   border: none;
   border-bottom: 2px solid #aaa;
@@ -54,11 +57,17 @@ body {
 #wrapper #top-bars button:hover {
   background-color: #000;
   transition: 0.3s all ease-in;
+  -webkit-transition: 0.3s all ease-in;
+  -moz-transition: 0.3s all ease-in;
+  -o-transition: 0.3s all ease-in;
 }
 #wrapper #top-bars span.active,
 #wrapper #top-bars button.active {
   background-color: #270082;
   transition: 0.3s all ease-in;
+  -webkit-transition: 0.3s all ease-in;
+  -moz-transition: 0.3s all ease-in;
+  -o-transition: 0.3s all ease-in;
 }
 #wrapper #top-bars span.highlightedButton,
 #wrapper #top-bars button.highlightedButton {
